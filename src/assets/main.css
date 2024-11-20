@@ -1,0 +1,40 @@
+@font-face {
+    font-family: GeistMono;
+    font-style: normal;
+    src: url("../assets/fonts/GeistMono-Medium.ttf") format("truetype");
+    font-display: swap;
+}
+
+
+
+:root {
+    --white: #ffffff;
+    --light-gray: #e5e5e5;
+    --black: #000000;
+    --dark-gray: #888888;
+}
+
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: GeistMono, sans-serif;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+}
+
+.site-wrapper {
+    margin: 100px auto;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
